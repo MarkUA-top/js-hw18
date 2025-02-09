@@ -1,12 +1,12 @@
 // Task 1
 const categories = document.querySelectorAll("#categories > li");
-console.log("У списку", categories.length, "категорії.");
+console.log(`У списку ${categories.length} категорії.`);
 
 categories.forEach((category) => {
   const categoryTitle = category.querySelector("h2");
   const categoryItems = category.querySelectorAll("ul > li");
-  console.log("Категорія: ", categoryTitle.innerHTML);
-  console.log("Кількість елементів: ", categoryItems.length);
+  console.log(`Категорія: ${categoryTitle.innerHTML}`);
+  console.log(`Кількість елементів: ${categoryItems.length}`);
 });
 
 // Task 2
